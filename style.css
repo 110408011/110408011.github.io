@@ -7,7 +7,25 @@ body   {
     font-weight: 300;
     font-style: normal;
     }
-    h1, h2, h3, h4, h5, h6, ul   {
+header, footer{
+background-color: #EBECB2;
+color:#1C1302;
+}
+header a{
+    color:#73573E;
+text-decoration:  none;
+}
+header a:hover{
+    text-decoration: underline;
+ }
+
+header li{
+    font-weight:  700;
+    display:inline;
+    margin-right: 1.2rem;
+}
+
+    h1, h2, h3, h4, h5, h6,   {
         font-family: "Noto Sans TC", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
@@ -18,6 +36,4 @@ body   {
     h4{font-weight: 500;font-size: 1.3rem}
     h5{font-weight: 300;font-size: 1.2rem}
     h6{font-weight: 100;font-size: 1.1rem}
-    ul {
-        font-weight: 400
-    }
+    
