@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <header class="uk-background-muted uk-padding-small">
+    <header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
         <div class="uk-container">
             <div class="uk-flex uk-flex-between uk-flex-middle">
                 <!-- Logo and Site Name -->
@@ -24,10 +24,10 @@
                 <!-- Desktop Menu -->
                 <nav class="uk-visible@m">
                     <ul class="uk-subnav uk-subnav-divider">
-                        <li><a href="#">首頁</a></li>
-                        <li><a href="#">關於我們</a></li>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
                         <li><a href="products.html">產品</a></li>
-                        <li><a href="#">聯絡我們</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
                         <li><a href="backup/index.html">舊網站</a></li>
                     </ul>
                 </nav>
@@ -45,10 +45,10 @@
         <div class="uk-offcanvas-bar">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul class="uk-nav uk-nav-default">
-                <li><a href="#">首頁</a></li>
-                <li><a href="#">關於我們</a></li>
+                <<li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
                 <li><a href="products.html">產品</a></li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
                 <li><a href="backup/index.html">舊網站</a></li>
             </ul>
         </div>
@@ -62,19 +62,25 @@
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">現代化的設計風格</h3>
-                        <p>商店外觀設計採用 簡約現代 的玻璃窗與深色調，搭配明亮的 品牌招牌，給人乾淨且有質感的印象</p>
+                        <p class="uk-dropcap">
+                            商店外觀設計採用 簡約現代 的玻璃窗與深色調，搭配明亮的 品牌招牌，給人乾淨且有質感的印象
+                        </p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">品牌視覺識別明確</h3>
-                        <p>夜間時分， 霓虹燈光效 與店內的溫暖照明相呼應，成功吸引路過行人的目光</p>
+                        <p class="uk-dropcap">
+                            夜間時分， 霓虹燈光效 與店內的溫暖照明相呼應，成功吸引路過行人的目光
+                        </p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">聚會與舒適用餐空間</h3>
-                        <p>店內設置 長桌與吧檯式座位，適合小型聚會與個人用餐需求，提供彈性的空間使用</p>
+                        <p class="uk-dropcap">
+                            店內設置 長桌與吧檯式座位，適合小型聚會與個人用餐需求，提供彈性的空間使用
+                        </p>
                     </div>
                 </div>
             </div>
